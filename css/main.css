@@ -45,3 +45,23 @@ div.buttons-form > button {
 div.buttons-form >   button:first-of-type {
     margin-right: 15px;
 }
+
+.nav-lists {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-lists li {
+    list-style: none;
+    margin: 8px;
+}
+
+.nav-lists li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-lists li a:hover {
+    text-decoration: underline;
+}
