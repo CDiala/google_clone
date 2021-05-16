@@ -1,0 +1,47 @@
+img.google-logo {
+    margin: 0 auto;
+    display: flex;
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.input-group {
+    display: flex;
+    align-items: center;
+    padding: 15px 35px;
+}
+
+img.search-icon {
+    position: relative;
+    left: 40px;
+    top: 2px
+}
+
+input#search-bar{
+    width: 400px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    outline: none;
+}
+
+img.search-mic {
+    position: relative;
+    right: 40px;
+    top: 2px;
+}
+
+div.buttons-form > button {
+    width: 140px;
+    height: 36px;
+    border: none;
+}
+
+div.buttons-form >   button:first-of-type {
+    margin-right: 15px;
+}
